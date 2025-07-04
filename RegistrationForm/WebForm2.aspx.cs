@@ -23,7 +23,6 @@ namespace RegistrationForm
                     cmd.Parameters.AddWithValue("@FirstName", txtFirstName.Text.Trim());
                     cmd.Parameters.AddWithValue("@Surname", txtSurname.Text.Trim());
                     cmd.Parameters.AddWithValue("@Age", int.Parse(txtAge.Text.Trim()));
-
                     cmd.Parameters.AddWithValue("@InstituteNameAddress", txtInstitute.Text.Trim());
                     cmd.Parameters.AddWithValue("@PlaceInst", txtPlaceInst.Text.Trim());
                     cmd.Parameters.AddWithValue("@TalukaInst", txtTalukaInst.Text.Trim());
